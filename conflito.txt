@@ -1,1 +1,2 @@
 Uma frase de conflito !!!
+valida o envio para remotogit 
