@@ -1,3 +1,5 @@
-Uma frase de conflito ???
+Uma frase de conflito???
+Uma frase de conflito***
+
 teste de envio remoto
 git status
