@@ -11,7 +11,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Entity
 @Table(name = "cotacao_usd")
-public class USDBRLDTOModel {
+public class USDBRLModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

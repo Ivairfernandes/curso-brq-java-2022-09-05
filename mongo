@@ -1,0 +1,28 @@
+[10:15, 12/11/2022] +55 11 95293-1420: https://m.facebook.com/story.php?story_fbid=pfbid0kRDRZQhGYYKhVJmfCWV9w4Ri658YYCchpjDd3X4myuUZwhpm7fHjjFG6obofzjR6l&id=100000486645667
+[10:59, 12/11/2022] +55 11 98273-3817: https://downloads.mongodb.com/compass/mongodb-compass-1.33.1-win32-x64.exe
+[11:15, 12/11/2022] +55 11 98273-3817: {
+    "id": 1,
+    "name": "Sarah Jones",
+    "isActive": true,
+    "dob": "1964-30-08"    
+}
+[11:19, 12/11/2022] +55 11 98273-3817: {
+    "id": 2,
+    "fullName": "John Smith",
+    "isActive": false,
+    "dob": "2002-02-18"    
+}
+[11:22, 12/11/2022] +55 11 98273-3817: {
+    "id": 3,
+    "fullName": {
+      "first": "Adam",
+      "last": "Stark"      
+    },
+    "isActive": false,
+    "dob": "2015-04-19"    
+}
+[11:23, 12/11/2022] +55 11 98273-3817: { "isActive": false }
+[11:27, 12/11/2022] +55 11 98273-3817: { "isActive": false, fullName: "John Smith" }
+[11:45, 12/11/2022] +55 11 98273-3817: { $or : [ { "name": "Sarah Jones"  } , { "fullName" : "John Smith" }  ] }
+[11:46, 12/11/2022] +55 11 98273-3817: https://github.com/ffborelli/curso-brq-java-2022-09-05/blob/docker/mongo.md
+[11:49, 12/11/2022] +55 11 98273-3817: { "name": { $regex: /a/ }    
